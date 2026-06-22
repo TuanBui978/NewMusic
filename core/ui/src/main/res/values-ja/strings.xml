@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">権限を許可</string>
+    <string name="action_open_settings">設定を開く</string>
+    <string name="action_cancel">キャンセル</string>
+
+    <string name="permission_rationale_title_default">権限が必要です</string>
+    <string name="permission_rationale_message_default">この機能を有効にするには権限が必要です。許可してください。</string>
+
+    <string name="permission_rationale_title_multiple">複数の権限が必要です</string>
+    <string name="permission_rationale_message_multiple">この機能を正しく動作させるには、いくつかの権限が必要です。次のステップで許可してください。</string>
+
+    <string name="permission_rationale_title_camera">カメラの権限</string>
+    <string name="permission_rationale_message_camera">写真や動画を撮影するには、カメラへのアクセス権限が必要です。</string>
+
+    <string name="permission_rationale_title_mic">マイクの権限</string>
+    <string name="permission_rationale_message_mic">音声を録音するには、マイクへのアクセス権限が必要です。</string>
+
+    <string name="permission_rationale_title_location">位置情報の権限</string>
+    <string name="permission_rationale_message_location">最も正確なサービスを提供するには、位置情報へのアクセス権限が必要です。</string>
+
+    <string name="permission_rationale_title_storage">ストレージの権限</string>
+    <string name="permission_rationale_message_storage">ファイルをアップロードまたは保存するには、写真やメディアへのアクセス権限が必要です。</string>
+
+    <string name="permission_settings_title_default">権限が拒否されました</string>
+    <string name="permission_settings_message_default">以前にこの権限が拒否されました。続行するには、設定を開いて手動で許可してください。</string>
+
+    <string name="permission_settings_title_multiple">権限が不足しています</string>
+    <string name="permission_settings_message_multiple">いくつかの重要な権限が永久に拒否されています。設定を開いてアクセスを許可してください。</string>
+
+    <string name="permission_settings_title_camera">カメラへのアクセスなし</string>
+    <string name="permission_settings_message_camera">カメラへのアクセスがブロックされています。設定を開き、権限からカメラへのアクセスを許可してください。</string>
+
+    <string name="permission_settings_title_mic">マイクへのアクセスなし</string>
+    <string name="permission_settings_message_mic">マイクへのアクセスがブロックされています。設定を開き、権限からマイクへのアクセスを許可してください。</string>
+
+    <string name="permission_settings_title_location">位置情報が無効です</string>
+    <string name="permission_settings_message_location">位置情報へのアクセスがブロックされています。設定を開き、「常に許可」または「アプリの使用中のみ許可」を選択してください。</string>
+
+    <string name="permission_settings_title_storage">ストレージが無効です</string>
+    <string name="permission_settings_message_storage">ストレージへのアクセスがブロックされています。この権限を付与するには、設定を開いてください。</string>
+</resources>

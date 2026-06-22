@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Conceder permiso</string>
+    <string name="action_open_settings">Abrir ajustes</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <string name="permission_rationale_title_default">Permiso requerido</string>
+    <string name="permission_rationale_message_default">La aplicación necesita este permiso para habilitar esta función. ¡Por favor, acéptalo!</string>
+
+    <string name="permission_rationale_title_multiple">Múltiples permisos requeridos</string>
+    <string name="permission_rationale_message_multiple">Esta función requiere algunos permisos para funcionar correctamente. Por favor, concédelos en el siguiente paso.</string>
+
+    <string name="permission_rationale_title_camera">Permiso de cámara</string>
+    <string name="permission_rationale_message_camera">La aplicación necesita acceso a la cámara para que puedas tomar fotos o grabar videos.</string>
+
+    <string name="permission_rationale_title_mic">Permiso de micrófono</string>
+    <string name="permission_rationale_message_mic">La aplicación necesita acceso al micrófono para grabar tu voz.</string>
+
+    <string name="permission_rationale_title_location">Permiso de ubicación</string>
+    <string name="permission_rationale_message_location">La aplicación necesita acceso a tu ubicación para brindarte los servicios más precisos.</string>
+
+    <string name="permission_rationale_title_storage">Permiso de almacenamiento</string>
+    <string name="permission_rationale_message_storage">La aplicación necesita acceso a tus fotos y archivos multimedia para que puedas subir o guardar archivos.</string>
+
+    <string name="permission_settings_title_default">Permiso denegado</string>
+    <string name="permission_settings_message_default">Denegaste este permiso anteriormente. Para continuar, abre los Ajustes y concédelo manualmente.</string>
+
+    <string name="permission_settings_title_multiple">Permisos faltantes</string>
+    <string name="permission_settings_message_multiple">Varios permisos esenciales han sido denegados permanentemente. Abre los Ajustes y permite el acceso.</string>
+
+    <string name="permission_settings_title_camera">Sin acceso a la cámara</string>
+    <string name="permission_settings_message_camera">El acceso a la cámara está bloqueado. Por favor, abre los Ajustes, ve a Permisos y permite el acceso a la cámara.</string>
+
+    <string name="permission_settings_title_mic">Sin acceso al micrófono</string>
+    <string name="permission_settings_message_mic">El acceso al micrófono está bloqueado. Por favor, abre los Ajustes, ve a Permisos y permite el acceso al micrófono.</string>
+
+    <string name="permission_settings_title_location">Ubicación desactivada</string>
+    <string name="permission_settings_message_location">El acceso a la ubicación está bloqueado. Abre los Ajustes y selecciona "Permitir siempre" o "Permitir solo mientras se usa la aplicación".</string>
+
+    <string name="permission_settings_title_storage">Almacenamiento desactivado</string>
+    <string name="permission_settings_message_storage">El acceso al almacenamiento está bloqueado. Abre los Ajustes para conceder este permiso.</string>
+</resources>

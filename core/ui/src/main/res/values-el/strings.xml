@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Παραχώρηση άδειας</string>
+    <string name="action_open_settings">Άνοιγμα ρυθμίσεων</string>
+    <string name="action_cancel">Ακύρωση</string>
+
+    <string name="permission_rationale_title_default">Απαιτείται άδεια</string>
+    <string name="permission_rationale_message_default">Η εφαρμογή χρειάζεται αυτήν την άδεια για να ενεργοποιήσει αυτήν τη λειτουργία. Παρακαλούμε συμφωνήστε!</string>
+
+    <string name="permission_rationale_title_multiple">Απαιτούνται πολλαπλές άδειες</string>
+    <string name="permission_rationale_message_multiple">Αυτή η λειτουργία χρειάζεται ορισμένες άδειες για να λειτουργήσει σωστά. Παρακαλούμε παραχωρήστε τις στο επόμενο βήμα.</string>
+
+    <string name="permission_rationale_title_camera">Άδεια κάμερας</string>
+    <string name="permission_rationale_message_camera">Η εφαρμογή χρειάζεται πρόσβαση στην Κάμερα για να μπορείτε να βγάλετε φωτογραφίες ή να τραβήξετε βίντεο.</string>
+
+    <string name="permission_rationale_title_mic">Άδεια μικροφώνου</string>
+    <string name="permission_rationale_message_mic">Η εφαρμογή χρειάζεται πρόσβαση στο Μικρόφωνο για να ηχογραφήσει τη φωνή σας.</string>
+
+    <string name="permission_rationale_title_location">Άδεια τοποθεσίας</string>
+    <string name="permission_rationale_message_location">Η εφαρμογή χρειάζεται πρόσβαση στην Τοποθεσία σας για να παρέχει τις πιο ακριβείς υπηρεσίες.</string>
+
+    <string name="permission_rationale_title_storage">Άδεια αποθηκευτικού χώρου</string>
+    <string name="permission_rationale_message_storage">Η εφαρμογή χρειάζεται πρόσβαση στις Φωτογραφίες και τα πολυμέσα σας για να μπορείτε να ανεβάσετε ή να αποθηκεύσετε αρχεία.</string>
+
+    <string name="permission_settings_title_default">Η άδεια απορρίφθηκε</string>
+    <string name="permission_settings_message_default">Προηγουμένως απορρίψατε αυτήν την άδεια. Για να συνεχίσετε, ανοίξτε τις Ρυθμίσεις και παραχωρήστε τη χειροκίνητα.</string>
+
+    <string name="permission_settings_title_multiple">Λείπουν άδειες</string>
+    <string name="permission_settings_message_multiple">Ορισμένες βασικές άδειες έχουν απορριφθεί μόνιμα. Ανοίξτε τις Ρυθμίσεις και επιτρέψτε την πρόσβαση.</string>
+
+    <string name="permission_settings_title_camera">Δεν υπάρχει πρόσβαση στην Κάμερα</string>
+    <string name="permission_settings_message_camera">Η πρόσβαση στην Κάμερα έχει αποκλειστεί. Ανοίξτε τις Ρυθμίσεις, μεταβείτε στις Άδειες και επιτρέψτε την πρόσβαση στην Κάμερα.</string>
+
+    <string name="permission_settings_title_mic">Δεν υπάρχει πρόσβαση στο Μικρόφωνο</string>
+    <string name="permission_settings_message_mic">Η πρόσβαση στο Μικρόφωνο έχει αποκλειστεί. Ανοίξτε τις Ρυθμίσεις, μεταβείτε στις Άδειες και επιτρέψτε την πρόσβαση στο Μικρόφωνο.</string>
+
+    <string name="permission_settings_title_location">Η τοποθεσία απενεργοποιήθηκε</string>
+    <string name="permission_settings_message_location">Η πρόσβαση στην Τοποθεσία έχει αποκλειστεί. Ανοίξτε τις Ρυθμίσεις και επιλέξτε "Να επιτρέπεται πάντα" ή "Να επιτρέπεται μόνο κατά τη χρήση της εφαρμογής".</string>
+
+    <string name="permission_settings_title_storage">Ο αποθηκευτικός χώρος απενεργοποιήθηκε</string>
+    <string name="permission_settings_message_storage">Η πρόσβαση στον Αποθηκευτικό χώρο έχει αποκλειστεί. Ανοίξτε τις Ρυθμίσεις για να παραχωρήσετε αυτήν την άδεια.</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Przyznaj uprawnienia</string>
+    <string name="action_open_settings">Otwórz ustawienia</string>
+    <string name="action_cancel">Anuluj</string>
+
+    <string name="permission_rationale_title_default">Wymagane uprawnienia</string>
+    <string name="permission_rationale_message_default">Aplikacja potrzebuje tego uprawnienia, aby włączyć tę funkcję. Proszę o zgodę!</string>
+
+    <string name="permission_rationale_title_multiple">Wymagane wiele uprawnień</string>
+    <string name="permission_rationale_message_multiple">Ta funkcja wymaga kilku uprawnień do prawidłowego działania. Przyznaj je w następnym kroku.</string>
+
+    <string name="permission_rationale_title_camera">Uprawnienie do aparatu</string>
+    <string name="permission_rationale_message_camera">Aplikacja potrzebuje dostępu do aparatu, aby można było robić zdjęcia lub nagrywać filmy.</string>
+
+    <string name="permission_rationale_title_mic">Uprawnienie do mikrofonu</string>
+    <string name="permission_rationale_message_mic">Aplikacja potrzebuje dostępu do mikrofonu, aby nagrywać Twój głos.</string>
+
+    <string name="permission_rationale_title_location">Uprawnienie do lokalizacji</string>
+    <string name="permission_rationale_message_location">Aplikacja potrzebuje dostępu do Twojej lokalizacji, aby zapewnić najdokładniejsze usługi.</string>
+
+    <string name="permission_rationale_title_storage">Uprawnienie do pamięci</string>
+    <string name="permission_rationale_message_storage">Aplikacja potrzebuje dostępu do Twoich zdjęć i multimediów, aby można było przesyłać lub zapisywać pliki.</string>
+
+    <string name="permission_settings_title_default">Odmowa uprawnień</string>
+    <string name="permission_settings_message_default">Wcześniej odrzuciłeś to uprawnienie. Aby kontynuować, otwórz Ustawienia i przyznaj je ręcznie.</string>
+
+    <string name="permission_settings_title_multiple">Brakujące uprawnienia</string>
+    <string name="permission_settings_message_multiple">Kilka podstawowych uprawnień zostało trwale odrzuconych. Otwórz Ustawienia i zezwól na dostęp.</string>
+
+    <string name="permission_settings_title_camera">Brak dostępu do aparatu</string>
+    <string name="permission_settings_message_camera">Dostęp do aparatu jest zablokowany. Otwórz Ustawienia, przejdź do Uprawnień i zezwól na dostęp do aparatu.</string>
+
+    <string name="permission_settings_title_mic">Brak dostępu do mikrofonu</string>
+    <string name="permission_settings_message_mic">Dostęp do mikrofonu jest zablokowany. Otwórz Ustawienia, przejdź do Uprawnień i zezwól na dostęp do mikrofonu.</string>
+
+    <string name="permission_settings_title_location">Lokalizacja wyłączona</string>
+    <string name="permission_settings_message_location">Dostęp do lokalizacji jest zablokowany. Otwórz Ustawienia i wybierz „Zawsze zezwalaj” lub „Zezwalaj tylko podczas używania aplikacji”.</string>
+
+    <string name="permission_settings_title_storage">Pamięć wyłączona</string>
+    <string name="permission_settings_message_storage">Dostęp do pamięci jest zablokowany. Otwórz Ustawienia, aby przyznać to uprawnienie.</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Udělit oprávnění</string>
+    <string name="action_open_settings">Otevřít nastavení</string>
+    <string name="action_cancel">Zrušit</string>
+
+    <string name="permission_rationale_title_default">Vyžadováno oprávnění</string>
+    <string name="permission_rationale_message_default">Aplikace potřebuje toto oprávnění k povolení této funkce. Prosím, povolte jej!</string>
+
+    <string name="permission_rationale_title_multiple">Vyžadováno více oprávnění</string>
+    <string name="permission_rationale_message_multiple">Tato funkce vyžaduje několik oprávnění ke správnému fungování. Udělte je prosím v dalším kroku.</string>
+
+    <string name="permission_rationale_title_camera">Oprávnění fotoaparátu</string>
+    <string name="permission_rationale_message_camera">Aplikace potřebuje přístup k fotoaparátu, abyste mohli pořizovat fotografie nebo nahrávat videa.</string>
+
+    <string name="permission_rationale_title_mic">Oprávnění mikrofonu</string>
+    <string name="permission_rationale_message_mic">Aplikace potřebuje přístup k mikrofonu pro nahrávání vašeho hlasu.</string>
+
+    <string name="permission_rationale_title_location">Oprávnění polohy</string>
+    <string name="permission_rationale_message_location">Aplikace potřebuje přístup k poloze, aby vám mohla poskytovat co nejpřesnější služby.</string>
+
+    <string name="permission_rationale_title_storage">Oprávnění k úložišti</string>
+    <string name="permission_rationale_message_storage">Aplikace potřebuje přístup k vašim fotografiím a médiím, abyste mohli nahrávat nebo ukládat soubory.</string>
+
+    <string name="permission_settings_title_default">Oprávnění zamítnuto</string>
+    <string name="permission_settings_message_default">Toto oprávnění jste dříve zamítli. Chcete-li pokračovat, otevřete Nastavení a udělte jej ručně.</string>
+
+    <string name="permission_settings_title_multiple">Chybějící oprávnění</string>
+    <string name="permission_settings_message_multiple">Několik základních oprávnění bylo trvale zamítnuto. Otevřete Nastavení a povolte přístup.</string>
+
+    <string name="permission_settings_title_camera">Bez přístupu k fotoaparátu</string>
+    <string name="permission_settings_message_camera">Přístup k fotoaparátu je zablokován. Otevřete Nastavení, přejděte na Oprávnění a povolte přístup k fotoaparátu.</string>
+
+    <string name="permission_settings_title_mic">Bez přístupu k mikrofonu</string>
+    <string name="permission_settings_message_mic">Přístup k mikrofonu je zablokován. Otevřete Nastavení, přejděte na Oprávnění a povolte přístup k mikrofonu.</string>
+
+    <string name="permission_settings_title_location">Poloha zakázána</string>
+    <string name="permission_settings_message_location">Přístup k poloze je zablokován. Otevřete Nastavení a vyberte „Povolit vždy“ nebo „Povolit pouze při používání aplikace“.</string>
+
+    <string name="permission_settings_title_storage">Úložiště zakázáno</string>
+    <string name="permission_settings_message_storage">Přístup k úložišti je zablokován. Otevřete Nastavení a udělte toto oprávnění.</string>
+</resources>

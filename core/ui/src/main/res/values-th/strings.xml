@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">อนุญาต</string>
+    <string name="action_open_settings">เปิดการตั้งค่า</string>
+    <string name="action_cancel">ยกเลิก</string>
+
+    <string name="permission_rationale_title_default">ต้องการสิทธิ์การเข้าถึง</string>
+    <string name="permission_rationale_message_default">แอปต้องการสิทธิ์นี้เพื่อเปิดใช้งานฟีเจอร์นี้ โปรดอนุญาต!</string>
+
+    <string name="permission_rationale_title_multiple">ต้องการหลายสิทธิ์</string>
+    <string name="permission_rationale_message_multiple">ฟีเจอร์นี้ต้องใช้บางสิทธิ์เพื่อให้ทำงานได้อย่างถูกต้อง โปรดอนุญาตในขั้นตอนต่อไป</string>
+
+    <string name="permission_rationale_title_camera">สิทธิ์ใช้งานกล้อง</string>
+    <string name="permission_rationale_message_camera">แอปต้องการเข้าถึงกล้องเพื่อให้คุณสามารถถ่ายภาพหรือบันทึกวิดีโอได้</string>
+
+    <string name="permission_rationale_title_mic">สิทธิ์ใช้งานไมโครโฟน</string>
+    <string name="permission_rationale_message_mic">แอปต้องการเข้าถึงไมโครโฟนเพื่อบันทึกเสียงของคุณ</string>
+
+    <string name="permission_rationale_title_location">สิทธิ์เข้าถึงตำแหน่ง</string>
+    <string name="permission_rationale_message_location">แอปต้องการเข้าถึงตำแหน่งของคุณเพื่อให้บริการที่แม่นยำที่สุด</string>
+
+    <string name="permission_rationale_title_storage">สิทธิ์เข้าถึงพื้นที่จัดเก็บข้อมูล</string>
+    <string name="permission_rationale_message_storage">แอปต้องการเข้าถึงรูปภาพและสื่อของคุณเพื่อให้คุณสามารถอัปโหลดหรือบันทึกไฟล์ได้</string>
+
+    <string name="permission_settings_title_default">ปฏิเสธสิทธิ์แล้ว</string>
+    <string name="permission_settings_message_default">คุณเคยปฏิเสธสิทธิ์นี้ไปแล้ว หากต้องการดำเนินการต่อ โปรดเปิดการตั้งค่าและอนุญาตด้วยตนเอง</string>
+
+    <string name="permission_settings_title_multiple">ขาดสิทธิ์การเข้าถึง</string>
+    <string name="permission_settings_message_multiple">สิทธิ์ที่จำเป็นบางประการถูกปฏิเสธอย่างถาวร โปรดเปิดการตั้งค่าและอนุญาตการเข้าถึง</string>
+
+    <string name="permission_settings_title_camera">ไม่สามารถเข้าถึงกล้องได้</string>
+    <string name="permission_settings_message_camera">การเข้าถึงกล้องถูกบล็อก โปรดเปิดการตั้งค่า ไปที่การอนุญาต และอนุญาตให้เข้าถึงกล้อง</string>
+
+    <string name="permission_settings_title_mic">ไม่สามารถเข้าถึงไมโครโฟนได้</string>
+    <string name="permission_settings_message_mic">การเข้าถึงไมโครโฟนถูกบล็อก โปรดเปิดการตั้งค่า ไปที่การอนุญาต และอนุญาตให้เข้าถึงไมโครโฟน</string>
+
+    <string name="permission_settings_title_location">ปิดใช้งานตำแหน่งแล้ว</string>
+    <string name="permission_settings_message_location">การเข้าถึงตำแหน่งถูกบล็อก โปรดเปิดการตั้งค่าและเลือก "อนุญาตตลอดเวลา" หรือ "อนุญาตเฉพาะขณะใช้แอป"</string>
+
+    <string name="permission_settings_title_storage">ปิดใช้งานพื้นที่จัดเก็บข้อมูลแล้ว</string>
+    <string name="permission_settings_message_storage">การเข้าถึงพื้นที่จัดเก็บข้อมูลถูกบล็อก โปรดเปิดการตั้งค่าเพื่ออนุญาตสิทธิ์นี้</string>
+</resources>

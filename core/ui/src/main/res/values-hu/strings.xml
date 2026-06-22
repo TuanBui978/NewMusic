@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Engedély megadása</string>
+    <string name="action_open_settings">Beállítások megnyitása</string>
+    <string name="action_cancel">Mégse</string>
+
+    <string name="permission_rationale_title_default">Engedély szükséges</string>
+    <string name="permission_rationale_message_default">Az alkalmazásnak szüksége van erre az engedélyre a funkció bekapcsolásához. Kérjük, hagyja jóvá!</string>
+
+    <string name="permission_rationale_title_multiple">Több engedély szükséges</string>
+    <string name="permission_rationale_message_multiple">A funkció megfelelő működéséhez több engedély is szükséges. Kérjük, adja meg ezeket a következő lépésben.</string>
+
+    <string name="permission_rationale_title_camera">Kamera engedély</string>
+    <string name="permission_rationale_message_camera">Az alkalmazásnak hozzá kell férnie a kamerához, hogy fényképeket vagy videókat készíthessen.</string>
+
+    <string name="permission_rationale_title_mic">Mikrofon engedély</string>
+    <string name="permission_rationale_message_mic">Az alkalmazásnak hozzá kell férnie a mikrofonhoz a hang rögzítéséhez.</string>
+
+    <string name="permission_rationale_title_location">Helymeghatározás engedély</string>
+    <string name="permission_rationale_message_location">Az alkalmazásnak hozzá kell férnie a tartózkodási helyéhez, hogy a legpontosabb szolgáltatásokat nyújtsa.</string>
+
+    <string name="permission_rationale_title_storage">Tárhely engedély</string>
+    <string name="permission_rationale_message_storage">Az alkalmazásnak hozzá kell férnie a fényképeihez és a médiához, hogy fájlokat tölthessen fel vagy menthessen.</string>
+
+    <string name="permission_settings_title_default">Engedély elutasítva</string>
+    <string name="permission_settings_message_default">Ezt az engedélyt korábban elutasította. A folytatáshoz nyissa meg a Beállításokat, és adja meg manuálisan.</string>
+
+    <string name="permission_settings_title_multiple">Hiányzó engedélyek</string>
+    <string name="permission_settings_message_multiple">Több alapvető engedélyt véglegesen elutasított. Kérjük, nyissa meg a Beállításokat, és engedélyezze a hozzáférést.</string>
+
+    <string name="permission_settings_title_camera">Nincs hozzáférés a kamerához</string>
+    <string name="permission_settings_message_camera">A kamerához való hozzáférés le van tiltva. Kérjük, nyissa meg a Beállításokat, menjen az Engedélyekhez, és engedélyezze a kamera használatát.</string>
+
+    <string name="permission_settings_title_mic">Nincs hozzáférés a mikrofonhoz</string>
+    <string name="permission_settings_message_mic">A mikrofonhoz való hozzáférés le van tiltva. Kérjük, nyissa meg a Beállításokat, menjen az Engedélyekhez, és engedélyezze a mikrofon használatát.</string>
+
+    <string name="permission_settings_title_location">Helymeghatározás letiltva</string>
+    <string name="permission_settings_message_location">A helymeghatározáshoz való hozzáférés le van tiltva. Nyissa meg a Beállításokat, és válassza a "Mindig engedélyezze" vagy "Csak az alkalmazás használata közben" lehetőséget.</string>
+
+    <string name="permission_settings_title_storage">Tárhely letiltva</string>
+    <string name="permission_settings_message_storage">A tárhelyhez való hozzáférés le van tiltva. Kérjük, nyissa meg a Beállításokat az engedély megadásához.</string>
+</resources>

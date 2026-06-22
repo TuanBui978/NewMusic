@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Berikan izin</string>
+    <string name="action_open_settings">Buka pengaturan</string>
+    <string name="action_cancel">Batal</string>
+
+    <string name="permission_rationale_title_default">Izin diperlukan</string>
+    <string name="permission_rationale_message_default">Aplikasi memerlukan izin ini untuk mengaktifkan fitur ini. Harap setujui!</string>
+
+    <string name="permission_rationale_title_multiple">Beberapa izin diperlukan</string>
+    <string name="permission_rationale_message_multiple">Fitur ini memerlukan beberapa izin agar berfungsi dengan benar. Harap berikan pada langkah berikutnya.</string>
+
+    <string name="permission_rationale_title_camera">Izin kamera</string>
+    <string name="permission_rationale_message_camera">Aplikasi perlu mengakses Kamera agar Anda dapat mengambil foto atau merekam video.</string>
+
+    <string name="permission_rationale_title_mic">Izin mikrofon</string>
+    <string name="permission_rationale_message_mic">Aplikasi perlu mengakses Mikrofon untuk merekam suara Anda.</string>
+
+    <string name="permission_rationale_title_location">Izin lokasi</string>
+    <string name="permission_rationale_message_location">Aplikasi perlu mengakses Lokasi Anda untuk memberikan layanan yang paling akurat.</string>
+
+    <string name="permission_rationale_title_storage">Izin penyimpanan</string>
+    <string name="permission_rationale_message_storage">Aplikasi perlu mengakses Foto dan media Anda agar Anda dapat mengunggah atau menyimpan file.</string>
+
+    <string name="permission_settings_title_default">Izin ditolak</string>
+    <string name="permission_settings_message_default">Anda sebelumnya menolak izin ini. Untuk melanjutkan, silakan buka Pengaturan dan berikan secara manual.</string>
+
+    <string name="permission_settings_title_multiple">Izin hilang</string>
+    <string name="permission_settings_message_multiple">Beberapa izin penting telah ditolak secara permanen. Silakan buka Pengaturan dan izinkan akses.</string>
+
+    <string name="permission_settings_title_camera">Tidak ada akses Kamera</string>
+    <string name="permission_settings_message_camera">Akses kamera diblokir. Silakan buka Pengaturan, buka Izin, dan izinkan akses Kamera.</string>
+
+    <string name="permission_settings_title_mic">Tidak ada akses Mikrofon</string>
+    <string name="permission_settings_message_mic">Akses mikrofon diblokir. Silakan buka Pengaturan, buka Izin, dan izinkan akses Mikrofon.</string>
+
+    <string name="permission_settings_title_location">Lokasi dinonaktifkan</string>
+    <string name="permission_settings_message_location">Akses lokasi diblokir. Buka Pengaturan dan pilih "Izinkan sepanjang waktu" atau "Izinkan hanya saat menggunakan aplikasi".</string>
+
+    <string name="permission_settings_title_storage">Penyimpanan dinonaktifkan</string>
+    <string name="permission_settings_message_storage">Akses penyimpanan diblokir. Silakan buka Pengaturan untuk memberikan izin ini.</string>
+</resources>

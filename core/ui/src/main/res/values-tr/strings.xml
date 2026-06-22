@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">İzin ver</string>
+    <string name="action_open_settings">Ayarları aç</string>
+    <string name="action_cancel">İptal</string>
+
+    <string name="permission_rationale_title_default">İzin gerekli</string>
+    <string name="permission_rationale_message_default">Uygulamanın bu özelliği etkinleştirmek için bu izne ihtiyacı var. Lütfen kabul edin!</string>
+
+    <string name="permission_rationale_title_multiple">Birden fazla izin gerekli</string>
+    <string name="permission_rationale_message_multiple">Bu özelliğin düzgün çalışması için birkaç izne ihtiyacı var. Lütfen bunları bir sonraki adımda verin.</string>
+
+    <string name="permission_rationale_title_camera">Kamera izni</string>
+    <string name="permission_rationale_message_camera">Uygulamanın fotoğraf çekebilmeniz veya video kaydedebilmeniz için Kameraya erişmesi gerekiyor.</string>
+
+    <string name="permission_rationale_title_mic">Mikrofon izni</string>
+    <string name="permission_rationale_message_mic">Uygulamanın sesinizi kaydedebilmesi için Mikrofona erişmesi gerekiyor.</string>
+
+    <string name="permission_rationale_title_location">Konum izni</string>
+    <string name="permission_rationale_message_location">Uygulamanın size en doğru hizmetleri sunabilmesi için Konumunuza erişmesi gerekiyor.</string>
+
+    <string name="permission_rationale_title_storage">Depolama izni</string>
+    <string name="permission_rationale_message_storage">Uygulamanın dosya yükleyebilmeniz veya kaydedebilmeniz için fotoğraflarınıza ve medyanıza erişmesi gerekiyor.</string>
+
+    <string name="permission_settings_title_default">İzin reddedildi</string>
+    <string name="permission_settings_message_default">Bu izni daha önce reddettiniz. Devam etmek için lütfen Ayarlar\'ı açın ve manuel olarak izin verin.</string>
+
+    <string name="permission_settings_title_multiple">Eksik izinler</string>
+    <string name="permission_settings_message_multiple">Gerekli bazı izinler kalıcı olarak reddedildi. Lütfen Ayarlar\'ı açın ve erişime izin verin.</string>
+
+    <string name="permission_settings_title_camera">Kamera erişimi yok</string>
+    <string name="permission_settings_message_camera">Kamera erişimi engellendi. Lütfen Ayarlar\'ı açın, İzinler\'e gidin ve Kamera erişimine izin verin.</string>
+
+    <string name="permission_settings_title_mic">Mikrofon erişimi yok</string>
+    <string name="permission_settings_message_mic">Mikrofon erişimi engellendi. Lütfen Ayarlar\'ı açın, İzinler\'e gidin ve Mikrofon erişimine izin verin.</string>
+
+    <string name="permission_settings_title_location">Konum devre dışı</string>
+    <string name="permission_settings_message_location">Konum erişimi engellendi. Lütfen Ayarlar\'ı açın ve "Her zaman izin ver" veya "Yalnızca uygulamayı kullanırken izin ver"i seçin.</string>
+
+    <string name="permission_settings_title_storage">Depolama devre dışı</string>
+    <string name="permission_settings_message_storage">Depolama erişimi engellendi. Bu izni vermek için lütfen Ayarlar\'ı açın.</string>
+</resources>

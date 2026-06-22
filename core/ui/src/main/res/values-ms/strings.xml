@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Beri kebenaran</string>
+    <string name="action_open_settings">Buka tetapan</string>
+    <string name="action_cancel">Batal</string>
+
+    <string name="permission_rationale_title_default">Kebenaran diperlukan</string>
+    <string name="permission_rationale_message_default">Apl memerlukan kebenaran ini untuk mendayakan ciri ini. Sila benarkan!</string>
+
+    <string name="permission_rationale_title_multiple">Pelbagai kebenaran diperlukan</string>
+    <string name="permission_rationale_message_multiple">Ciri ini memerlukan beberapa kebenaran untuk berfungsi dengan betul. Sila berikannya pada langkah seterusnya.</string>
+
+    <string name="permission_rationale_title_camera">Kebenaran kamera</string>
+    <string name="permission_rationale_message_camera">Apl memerlukan akses Kamera supaya anda boleh mengambil gambar atau merakam video.</string>
+
+    <string name="permission_rationale_title_mic">Kebenaran mikrofon</string>
+    <string name="permission_rationale_message_mic">Apl memerlukan akses Mikrofon untuk merakam suara anda.</string>
+
+    <string name="permission_rationale_title_location">Kebenaran lokasi</string>
+    <string name="permission_rationale_message_location">Apl memerlukan akses Lokasi anda untuk memberikan perkhidmatan yang paling tepat.</string>
+
+    <string name="permission_rationale_title_storage">Kebenaran storan</string>
+    <string name="permission_rationale_message_storage">Apl memerlukan akses kepada foto dan media anda supaya anda boleh memuat naik atau menyimpan fail.</string>
+
+    <string name="permission_settings_title_default">Kebenaran ditolak</string>
+    <string name="permission_settings_message_default">Anda sebelum ini menolak kebenaran ini. Untuk meneruskan, sila buka Tetapan dan berikannya secara manual.</string>
+
+    <string name="permission_settings_title_multiple">Kebenaran hilang</string>
+    <string name="permission_settings_message_multiple">Beberapa kebenaran penting telah ditolak secara kekal. Sila buka Tetapan dan benarkan akses.</string>
+
+    <string name="permission_settings_title_camera">Tiada akses Kamera</string>
+    <string name="permission_settings_message_camera">Akses kamera disekat. Sila buka Tetapan, pergi ke Kebenaran dan benarkan akses Kamera.</string>
+
+    <string name="permission_settings_title_mic">Tiada akses Mikrofon</string>
+    <string name="permission_settings_message_mic">Akses mikrofon disekat. Sila buka Tetapan, pergi ke Kebenaran dan benarkan akses Mikrofon.</string>
+
+    <string name="permission_settings_title_location">Lokasi dilumpuhkan</string>
+    <string name="permission_settings_message_location">Akses lokasi disekat. Sila buka Tetapan dan pilih "Sentiasa benarkan" atau "Benarkan hanya semasa menggunakan apl".</string>
+
+    <string name="permission_settings_title_storage">Storan dilumpuhkan</string>
+    <string name="permission_settings_message_storage">Akses storan disekat. Sila buka Tetapan untuk memberikan kebenaran ini.</string>
+</resources>

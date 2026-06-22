@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">اعطای مجوز</string>
+    <string name="action_open_settings">باز کردن تنظیمات</string>
+    <string name="action_cancel">لغو</string>
+
+    <string name="permission_rationale_title_default">مجوز لازم است</string>
+    <string name="permission_rationale_message_default">برنامه برای فعال کردن این ویژگی به این مجوز نیاز دارد. لطفاً موافقت کنید!</string>
+
+    <string name="permission_rationale_title_multiple">چندین مجوز لازم است</string>
+    <string name="permission_rationale_message_multiple">این ویژگی برای عملکرد صحیح به چند مجوز نیاز دارد. لطفاً آنها را در مرحله بعد اعطا کنید.</string>
+
+    <string name="permission_rationale_title_camera">مجوز دوربین</string>
+    <string name="permission_rationale_message_camera">برنامه به دسترسی دوربین نیاز دارد تا بتوانید عکس یا ویدیو بگیرید.</string>
+
+    <string name="permission_rationale_title_mic">مجوز میکروفون</string>
+    <string name="permission_rationale_message_mic">برنامه برای ضبط صدای شما به دسترسی میکروفون نیاز دارد.</string>
+
+    <string name="permission_rationale_title_location">مجوز مکان</string>
+    <string name="permission_rationale_message_location">برنامه برای ارائه دقیق‌ترین خدمات به دسترسی مکان شما نیاز دارد.</string>
+
+    <string name="permission_rationale_title_storage">مجوز فضای ذخیره‌سازی</string>
+    <string name="permission_rationale_message_storage">برنامه برای آپلود یا ذخیره فایل‌ها به دسترسی عکس‌ها و رسانه‌های شما نیاز دارد.</string>
+
+    <string name="permission_settings_title_default">مجوز رد شد</string>
+    <string name="permission_settings_message_default">شما قبلاً این مجوز را رد کرده‌اید. برای ادامه، تنظیمات را باز کنید و آن را به صورت دستی اعطا کنید.</string>
+
+    <string name="permission_settings_title_multiple">مجوزهای ناموجود</string>
+    <string name="permission_settings_message_multiple">چندین مجوز اساسی به طور دائم رد شده‌اند. لطفاً تنظیمات را باز کرده و اجازه دسترسی بدهید.</string>
+
+    <string name="permission_settings_title_camera">عدم دسترسی به دوربین</string>
+    <string name="permission_settings_message_camera">دسترسی به دوربین مسدود شده است. لطفاً تنظیمات را باز کنید، به بخش مجوزها بروید و دسترسی به دوربین را مجاز کنید.</string>
+
+    <string name="permission_settings_title_mic">عدم دسترسی به میکروفون</string>
+    <string name="permission_settings_message_mic">دسترسی به میکروفون مسدود شده است. لطفاً تنظیمات را باز کنید، به بخش مجوزها بروید و دسترسی به میکروفون را مجاز کنید.</string>
+
+    <string name="permission_settings_title_location">مکان غیرفعال است</string>
+    <string name="permission_settings_message_location">دسترسی به مکان مسدود شده است. لطفاً تنظیمات را باز کنید و "همیشه مجاز باشد" یا "فقط هنگام استفاده از برنامه مجاز باشد" را انتخاب کنید.</string>
+
+    <string name="permission_settings_title_storage">فضای ذخیره‌سازی غیرفعال است</string>
+    <string name="permission_settings_message_storage">دسترسی به فضای ذخیره‌سازی مسدود شده است. لطفاً تنظیمات را برای اعطای این مجوز باز کنید.</string>
+</resources>

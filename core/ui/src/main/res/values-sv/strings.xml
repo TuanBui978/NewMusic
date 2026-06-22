@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Bevilja behörighet</string>
+    <string name="action_open_settings">Öppna inställningar</string>
+    <string name="action_cancel">Avbryt</string>
+
+    <string name="permission_rationale_title_default">Behörighet krävs</string>
+    <string name="permission_rationale_message_default">Appen behöver denna behörighet för att aktivera den här funktionen. Vänligen godkänn!</string>
+
+    <string name="permission_rationale_title_multiple">Flera behörigheter krävs</string>
+    <string name="permission_rationale_message_multiple">Den här funktionen kräver några behörigheter för att fungera korrekt. Vänligen bevilja dem i nästa steg.</string>
+
+    <string name="permission_rationale_title_camera">Kamerabehörighet</string>
+    <string name="permission_rationale_message_camera">Appen behöver tillgång till kameran så att du kan ta foton eller spela in videor.</string>
+
+    <string name="permission_rationale_title_mic">Mikrofonbehörighet</string>
+    <string name="permission_rationale_message_mic">Appen behöver tillgång till mikrofonen för att spela in din röst.</string>
+
+    <string name="permission_rationale_title_location">Platsbehörighet</string>
+    <string name="permission_rationale_message_location">Appen behöver tillgång till din plats för att ge dig de mest exakta tjänsterna.</string>
+
+    <string name="permission_rationale_title_storage">Lagringsbehörighet</string>
+    <string name="permission_rationale_message_storage">Appen behöver tillgång till dina foton och media så att du kan ladda upp eller spara filer.</string>
+
+    <string name="permission_settings_title_default">Behörighet nekad</string>
+    <string name="permission_settings_message_default">Du har tidigare nekat denna behörighet. För att fortsätta, öppna Inställningar och bevilja den manuellt.</string>
+
+    <string name="permission_settings_title_multiple">Saknade behörigheter</string>
+    <string name="permission_settings_message_multiple">Flera viktiga behörigheter har nekats permanent. Öppna Inställningar och tillåt åtkomst.</string>
+
+    <string name="permission_settings_title_camera">Ingen kameraåtkomst</string>
+    <string name="permission_settings_message_camera">Kameraåtkomst är blockerad. Öppna Inställningar, gå till Behörigheter och tillåt åtkomst till kameran.</string>
+
+    <string name="permission_settings_title_mic">Ingen mikrofonåtkomst</string>
+    <string name="permission_settings_message_mic">Mikrofonåtkomst är blockerad. Öppna Inställningar, gå till Behörigheter och tillåt åtkomst till mikrofonen.</string>
+
+    <string name="permission_settings_title_location">Plats inaktiverad</string>
+    <string name="permission_settings_message_location">Platsåtkomst är blockerad. Öppna Inställningar och välj "Tillåt alltid" eller "Tillåt endast när appen används".</string>
+
+    <string name="permission_settings_title_storage">Lagring inaktiverad</string>
+    <string name="permission_settings_message_storage">Lagringsåtkomst är blockerad. Öppna Inställningar för att bevilja denna behörighet.</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Conceder permissão</string>
+    <string name="action_open_settings">Abrir configurações</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <string name="permission_rationale_title_default">Permissão necessária</string>
+    <string name="permission_rationale_message_default">O aplicativo precisa desta permissão para ativar este recurso. Por favor, permita!</string>
+
+    <string name="permission_rationale_title_multiple">Múltiplas permissões necessárias</string>
+    <string name="permission_rationale_message_multiple">Este recurso requer algumas permissões para funcionar corretamente. Por favor, conceda-as na próxima etapa.</string>
+
+    <string name="permission_rationale_title_camera">Permissão de câmera</string>
+    <string name="permission_rationale_message_camera">O aplicativo precisa de acesso à câmera para que você possa tirar fotos ou gravar vídeos.</string>
+
+    <string name="permission_rationale_title_mic">Permissão de microfone</string>
+    <string name="permission_rationale_message_mic">O aplicativo precisa de acesso ao microfone para gravar sua voz.</string>
+
+    <string name="permission_rationale_title_location">Permissão de localização</string>
+    <string name="permission_rationale_message_location">O aplicativo precisa de acesso à sua localização para fornecer os serviços mais precisos.</string>
+
+    <string name="permission_rationale_title_storage">Permissão de armazenamento</string>
+    <string name="permission_rationale_message_storage">O aplicativo precisa de acesso às suas fotos e mídia para que você possa enviar ou salvar arquivos.</string>
+
+    <string name="permission_settings_title_default">Permissão negada</string>
+    <string name="permission_settings_message_default">Você negou esta permissão anteriormente. Para continuar, abra as Configurações e conceda-a manualmente.</string>
+
+    <string name="permission_settings_title_multiple">Permissões ausentes</string>
+    <string name="permission_settings_message_multiple">Várias permissões essenciais foram negadas permanentemente. Abra as Configurações e permita o acesso.</string>
+
+    <string name="permission_settings_title_camera">Sem acesso à câmera</string>
+    <string name="permission_settings_message_camera">O acesso à câmera está bloqueado. Abra as Configurações, vá em Permissões e permita o acesso à câmera.</string>
+
+    <string name="permission_settings_title_mic">Sem acesso ao microfone</string>
+    <string name="permission_settings_message_mic">O acesso ao microfone está bloqueado. Abra as Configurações, vá em Permissões e permita o acesso ao microfone.</string>
+
+    <string name="permission_settings_title_location">Localização desativada</string>
+    <string name="permission_settings_message_location">O acesso à localização está bloqueado. Abra as Configurações e selecione "Permitir sempre" ou "Permitir apenas durante o uso do app".</string>
+
+    <string name="permission_settings_title_storage">Armazenamento desativado</string>
+    <string name="permission_settings_message_storage">O acesso ao armazenamento está bloqueado. Abra as Configurações para conceder esta permissão.</string>
+</resources>

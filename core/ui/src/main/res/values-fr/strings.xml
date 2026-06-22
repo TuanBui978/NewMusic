@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Accorder l\'autorisation</string>
+    <string name="action_open_settings">Ouvrir les paramètres</string>
+    <string name="action_cancel">Annuler</string>
+
+    <string name="permission_rationale_title_default">Autorisation requise</string>
+    <string name="permission_rationale_message_default">L\'application a besoin de cette autorisation pour activer cette fonctionnalité. Veuillez l\'accepter !</string>
+
+    <string name="permission_rationale_title_multiple">Plusieurs autorisations requises</string>
+    <string name="permission_rationale_message_multiple">Cette fonctionnalité nécessite quelques autorisations pour fonctionner correctement. Veuillez les accorder à l\'étape suivante.</string>
+
+    <string name="permission_rationale_title_camera">Autorisation de la caméra</string>
+    <string name="permission_rationale_message_camera">L\'application a besoin d\'accéder à l\'appareil photo pour que vous puissiez prendre des photos ou enregistrer des vidéos.</string>
+
+    <string name="permission_rationale_title_mic">Autorisation du microphone</string>
+    <string name="permission_rationale_message_mic">L\'application a besoin d\'accéder au microphone pour enregistrer votre voix.</string>
+
+    <string name="permission_rationale_title_location">Autorisation de localisation</string>
+    <string name="permission_rationale_message_location">L\'application a besoin d\'accéder à votre position pour vous fournir les services les plus précis.</string>
+
+    <string name="permission_rationale_title_storage">Autorisation de stockage</string>
+    <string name="permission_rationale_message_storage">L\'application a besoin d\'accéder à vos photos et médias pour que vous puissiez importer ou enregistrer des fichiers.</string>
+
+    <string name="permission_settings_title_default">Autorisation refusée</string>
+    <string name="permission_settings_message_default">Vous avez précédemment refusé cette autorisation. Pour continuer, veuillez ouvrir les paramètres et l\'accorder manuellement.</string>
+
+    <string name="permission_settings_title_multiple">Autorisations manquantes</string>
+    <string name="permission_settings_message_multiple">Plusieurs autorisations essentielles ont été refusées de façon permanente. Veuillez ouvrir les Paramètres et autoriser l\'accès.</string>
+
+    <string name="permission_settings_title_camera">Pas d\'accès à la caméra</string>
+    <string name="permission_settings_message_camera">L\'accès à l\'appareil photo est bloqué. Veuillez ouvrir les Paramètres, accéder à Autorisations, et autoriser l\'accès à la caméra.</string>
+
+    <string name="permission_settings_title_mic">Pas d\'accès au microphone</string>
+    <string name="permission_settings_message_mic">L\'accès au microphone est bloqué. Veuillez ouvrir les Paramètres, accéder à Autorisations, et autoriser l\'accès au microphone.</string>
+
+    <string name="permission_settings_title_location">Localisation désactivée</string>
+    <string name="permission_settings_message_location">L\'accès à la position est bloqué. Veuillez ouvrir les Paramètres et sélectionner "Toujours autoriser" ou "N\'autoriser que pendant l\'utilisation de l\'application".</string>
+
+    <string name="permission_settings_title_storage">Stockage désactivé</string>
+    <string name="permission_settings_message_storage">L\'accès au stockage est bloqué. Veuillez ouvrir les paramètres pour accorder cette autorisation.</string>
+</resources>

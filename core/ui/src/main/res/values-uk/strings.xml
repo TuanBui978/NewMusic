@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Надати дозвіл</string>
+    <string name="action_open_settings">Відкрити налаштування</string>
+    <string name="action_cancel">Скасувати</string>
+
+    <string name="permission_rationale_title_default">Потрібен дозвіл</string>
+    <string name="permission_rationale_message_default">Додатку потрібен цей дозвіл, щоб увімкнути цю функцію. Будь ласка, погодьтесь!</string>
+
+    <string name="permission_rationale_title_multiple">Потрібно кілька дозволів</string>
+    <string name="permission_rationale_message_multiple">Для правильної роботи цієї функції потрібно кілька дозволів. Будь ласка, надайте їх на наступному кроці.</string>
+
+    <string name="permission_rationale_title_camera">Дозвіл на камеру</string>
+    <string name="permission_rationale_message_camera">Додатку потрібен доступ до камери, щоб ви могли робити фотографії або записувати відео.</string>
+
+    <string name="permission_rationale_title_mic">Дозвіл на мікрофон</string>
+    <string name="permission_rationale_message_mic">Додатку потрібен доступ до мікрофона, щоб записувати ваш голос.</string>
+
+    <string name="permission_rationale_title_location">Дозвіл на місцезнаходження</string>
+    <string name="permission_rationale_message_location">Додатку потрібен доступ до вашого місцезнаходження, щоб надавати найточніші послуги.</string>
+
+    <string name="permission_rationale_title_storage">Дозвіл на пам\'ять</string>
+    <string name="permission_rationale_message_storage">Додатку потрібен доступ до ваших фотографій і медіафайлів, щоб ви могли завантажувати або зберігати файли.</string>
+
+    <string name="permission_settings_title_default">Дозвіл відхилено</string>
+    <string name="permission_settings_message_default">Ви раніше відхилили цей дозвіл. Щоб продовжити, відкрийте Налаштування та надайте його вручну.</string>
+
+    <string name="permission_settings_title_multiple">Відсутні дозволи</string>
+    <string name="permission_settings_message_multiple">Кілька основних дозволів було назавжди відхилено. Відкрийте Налаштування та дозвольте доступ.</string>
+
+    <string name="permission_settings_title_camera">Немає доступу до камери</string>
+    <string name="permission_settings_message_camera">Доступ до камери заблоковано. Відкрийте Налаштування, перейдіть до Дозволів і дозвольте доступ до камери.</string>
+
+    <string name="permission_settings_title_mic">Немає доступу до мікрофона</string>
+    <string name="permission_settings_message_mic">Доступ до мікрофона заблоковано. Відкрийте Налаштування, перейдіть до Дозволів і дозвольте доступ до мікрофона.</string>
+
+    <string name="permission_settings_title_location">Місцезнаходження вимкнено</string>
+    <string name="permission_settings_message_location">Доступ до місцезнаходження заблоковано. Відкрийте Налаштування та виберіть "Дозволяти завжди" або "Дозволяти лише під час використання додатка".</string>
+
+    <string name="permission_settings_title_storage">Пам\'ять вимкнено</string>
+    <string name="permission_settings_message_storage">Доступ до пам\'яті заблоковано. Відкрийте Налаштування, щоб надати цей дозвіл.</string>
+</resources>

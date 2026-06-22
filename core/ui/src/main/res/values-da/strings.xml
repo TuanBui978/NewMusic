@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Giv tilladelse</string>
+    <string name="action_open_settings">Åbn indstillinger</string>
+    <string name="action_cancel">Annuller</string>
+
+    <string name="permission_rationale_title_default">Tilladelse påkrævet</string>
+    <string name="permission_rationale_message_default">Appen skal bruge denne tilladelse for at aktivere funktionen. Accepter venligst!</string>
+
+    <string name="permission_rationale_title_multiple">Flere tilladelser påkrævet</string>
+    <string name="permission_rationale_message_multiple">Denne funktion kræver nogle tilladelser for at fungere korrekt. Giv dem venligst i næste trin.</string>
+
+    <string name="permission_rationale_title_camera">Kameratilladelse</string>
+    <string name="permission_rationale_message_camera">Appen skal bruge kameradgang, så du kan tage billeder eller optage videoer.</string>
+
+    <string name="permission_rationale_title_mic">Mikrofontilladelse</string>
+    <string name="permission_rationale_message_mic">Appen skal bruge mikrofonadgang for at optage din stemme.</string>
+
+    <string name="permission_rationale_title_location">Placeringstilladelse</string>
+    <string name="permission_rationale_message_location">Appen skal bruge adgang til din placering for at levere de mest nøjagtige tjenester.</string>
+
+    <string name="permission_rationale_title_storage">Lagertilladelse</string>
+    <string name="permission_rationale_message_storage">Appen skal bruge adgang til dine billeder og medier, så du kan uploade eller gemme filer.</string>
+
+    <string name="permission_settings_title_default">Tilladelse afvist</string>
+    <string name="permission_settings_message_default">Du har tidligere afvist denne tilladelse. For at fortsætte skal du åbne Indstillinger og give den manuelt.</string>
+
+    <string name="permission_settings_title_multiple">Manglende tilladelser</string>
+    <string name="permission_settings_message_multiple">Flere vigtige tilladelser er blevet permanent afvist. Åbn Indstillinger for at tillade adgang.</string>
+
+    <string name="permission_settings_title_camera">Ingen kameradgang</string>
+    <string name="permission_settings_message_camera">Kameradgang er blokeret. Åbn Indstillinger, gå til Tilladelser, og tillad kameradgang.</string>
+
+    <string name="permission_settings_title_mic">Ingen mikrofonadgang</string>
+    <string name="permission_settings_message_mic">Mikrofonadgang er blokeret. Åbn Indstillinger, gå til Tilladelser, og tillad mikrofonadgang.</string>
+
+    <string name="permission_settings_title_location">Placering deaktiveret</string>
+    <string name="permission_settings_message_location">Placeringsadgang er blokeret. Åbn Indstillinger, og vælg "Tillad altid" eller "Tillad kun under brug af appen".</string>
+
+    <string name="permission_settings_title_storage">Lager deaktiveret</string>
+    <string name="permission_settings_message_storage">Lageradgang er blokeret. Åbn Indstillinger for at give denne tilladelse.</string>
+</resources>

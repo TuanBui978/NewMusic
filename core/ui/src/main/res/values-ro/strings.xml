@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Acordă permisiunea</string>
+    <string name="action_open_settings">Deschide setările</string>
+    <string name="action_cancel">Anulează</string>
+
+    <string name="permission_rationale_title_default">Permisiune necesară</string>
+    <string name="permission_rationale_message_default">Aplicația are nevoie de această permisiune pentru a activa această funcție. Te rugăm să o acorzi!</string>
+
+    <string name="permission_rationale_title_multiple">Permisiuni multiple necesare</string>
+    <string name="permission_rationale_message_multiple">Această funcție necesită câteva permisiuni pentru a funcționa corect. Te rugăm să le acorzi la pasul următor.</string>
+
+    <string name="permission_rationale_title_camera">Permisiune cameră</string>
+    <string name="permission_rationale_message_camera">Aplicația are nevoie de acces la Cameră pentru a putea face fotografii sau înregistra videoclipuri.</string>
+
+    <string name="permission_rationale_title_mic">Permisiune microfon</string>
+    <string name="permission_rationale_message_mic">Aplicația are nevoie de acces la Microfon pentru a-ți înregistra vocea.</string>
+
+    <string name="permission_rationale_title_location">Permisiune locație</string>
+    <string name="permission_rationale_message_location">Aplicația are nevoie de acces la Locație pentru a-ți oferi cele mai precise servicii.</string>
+
+    <string name="permission_rationale_title_storage">Permisiune stocare</string>
+    <string name="permission_rationale_message_storage">Aplicația are nevoie de acces la fotografii și media pentru a putea încărca sau salva fișiere.</string>
+
+    <string name="permission_settings_title_default">Permisiune refuzată</string>
+    <string name="permission_settings_message_default">Ai refuzat anterior această permisiune. Pentru a continua, deschide Setările și acord-o manual.</string>
+
+    <string name="permission_settings_title_multiple">Permisiuni lipsă</string>
+    <string name="permission_settings_message_multiple">Mai multe permisiuni esențiale au fost refuzate definitiv. Deschide Setările și permite accesul.</string>
+
+    <string name="permission_settings_title_camera">Fără acces la cameră</string>
+    <string name="permission_settings_message_camera">Accesul la cameră este blocat. Deschide Setările, mergi la Permisiuni și permite accesul la Cameră.</string>
+
+    <string name="permission_settings_title_mic">Fără acces la microfon</string>
+    <string name="permission_settings_message_mic">Accesul la microfon este blocat. Deschide Setările, mergi la Permisiuni și permite accesul la Microfon.</string>
+
+    <string name="permission_settings_title_location">Locație dezactivată</string>
+    <string name="permission_settings_message_location">Accesul la locație este blocat. Deschide Setările și selectează "Permiteți întotdeauna" sau "Permiteți numai în timpul utilizării aplicației".</string>
+
+    <string name="permission_settings_title_storage">Stocare dezactivată</string>
+    <string name="permission_settings_message_storage">Accesul la stocare este blocat. Deschide Setările pentru a acorda această permisiune.</string>
+</resources>

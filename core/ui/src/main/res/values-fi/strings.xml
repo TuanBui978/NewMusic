@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Myönnä lupa</string>
+    <string name="action_open_settings">Avaa asetukset</string>
+    <string name="action_cancel">Peruuta</string>
+
+    <string name="permission_rationale_title_default">Lupa vaaditaan</string>
+    <string name="permission_rationale_message_default">Sovellus tarvitsee tämän luvan ottaakseen tämän ominaisuuden käyttöön. Hyväksy, kiitos!</string>
+
+    <string name="permission_rationale_title_multiple">Useita lupia vaaditaan</string>
+    <string name="permission_rationale_message_multiple">Tämä ominaisuus vaatii muutaman luvan toimiakseen oikein. Myönnä ne seuraavassa vaiheessa.</string>
+
+    <string name="permission_rationale_title_camera">Kameralupa</string>
+    <string name="permission_rationale_message_camera">Sovellus tarvitsee kameran käyttöoikeuden, jotta voit ottaa kuvia tai tallentaa videoita.</string>
+
+    <string name="permission_rationale_title_mic">Mikrofonilupa</string>
+    <string name="permission_rationale_message_mic">Sovellus tarvitsee mikrofonin käyttöoikeuden äänesi tallentamiseksi.</string>
+
+    <string name="permission_rationale_title_location">Sijaintilupa</string>
+    <string name="permission_rationale_message_location">Sovellus tarvitsee sijaintisi käyttöoikeuden tarjotakseen sinulle tarkimmat palvelut.</string>
+
+    <string name="permission_rationale_title_storage">Tallennustilalupa</string>
+    <string name="permission_rationale_message_storage">Sovellus tarvitsee pääsyn kuviisi ja mediaasi, jotta voit ladata tai tallentaa tiedostoja.</string>
+
+    <string name="permission_settings_title_default">Lupa evätty</string>
+    <string name="permission_settings_message_default">Olet aiemmin evännyt tämän luvan. Jatkaaksesi, avaa Asetukset ja myönnä se manuaalisesti.</string>
+
+    <string name="permission_settings_title_multiple">Puuttuvat luvat</string>
+    <string name="permission_settings_message_multiple">Useat tärkeät luvat on evätty pysyvästi. Avaa Asetukset ja salli käyttö.</string>
+
+    <string name="permission_settings_title_camera">Ei pääsyä kameraan</string>
+    <string name="permission_settings_message_camera">Kameran käyttö on estetty. Avaa Asetukset, siirry Lupiin ja salli kameran käyttö.</string>
+
+    <string name="permission_settings_title_mic">Ei pääsyä mikrofoniin</string>
+    <string name="permission_settings_message_mic">Mikrofonin käyttö on estetty. Avaa Asetukset, siirry Lupiin ja salli mikrofonin käyttö.</string>
+
+    <string name="permission_settings_title_location">Sijainti poistettu käytöstä</string>
+    <string name="permission_settings_message_location">Sijainnin käyttö on estetty. Avaa Asetukset ja valitse "Salli aina" tai "Salli vain sovellusta käytettäessä".</string>
+
+    <string name="permission_settings_title_storage">Tallennustila poistettu käytöstä</string>
+    <string name="permission_settings_message_storage">Tallennustilan käyttö on estetty. Avaa Asetukset myöntääksesi tämän luvan.</string>
+</resources>

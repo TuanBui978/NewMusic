@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Cấp quyền</string>
+    <string name="action_open_settings">Mở cài đặt</string>
+    <string name="action_cancel">Hủy</string>
+
+    <string name="permission_rationale_title_default">Yêu cầu cấp quyền</string>
+    <string name="permission_rationale_message_default">Ứng dụng cần được cấp quyền để có thể hoạt động tính năng này. Vui lòng đồng ý nhé!</string>
+
+    <string name="permission_rationale_title_multiple">Yêu cầu nhiều quyền</string>
+    <string name="permission_rationale_message_multiple">Tính năng này cần một số quyền truy cập để hoạt động chính xác. Vui lòng cấp quyền ở bước tiếp theo.</string>
+
+    <string name="permission_rationale_title_camera">Quyền chụp ảnh</string>
+    <string name="permission_rationale_message_camera">Ứng dụng cần quyền truy cập Camera để bạn có thể chụp ảnh hoặc quay video.</string>
+
+    <string name="permission_rationale_title_mic">Quyền thu âm</string>
+    <string name="permission_rationale_message_mic">Ứng dụng cần quyền truy cập Microphone để ghi âm giọng nói của bạn.</string>
+
+    <string name="permission_rationale_title_location">Quyền vị trí</string>
+    <string name="permission_rationale_message_location">Ứng dụng cần quyền truy cập Vị trí để cung cấp cho bạn các dịch vụ chính xác nhất.</string>
+
+    <string name="permission_rationale_title_storage">Quyền bộ nhớ</string>
+    <string name="permission_rationale_message_storage">Ứng dụng cần quyền truy cập Ảnh và file phương tiện để bạn có thể tải lên hoặc lưu dữ liệu.</string>
+
+
+    <string name="permission_settings_title_default">Quyền bị từ chối</string>
+    <string name="permission_settings_message_default">Bạn đã từ chối quyền này trước đó. Để tiếp tục sử dụng, vui lòng mở Cài đặt và cấp quyền thủ công.</string>
+
+    <string name="permission_settings_title_multiple">Thiếu nhiều quyền</string>
+    <string name="permission_settings_message_multiple">Một số quyền quan trọng đã bị từ chối vĩnh viễn. Vui lòng mở Cài đặt và cho phép ứng dụng truy cập.</string>
+
+    <string name="permission_settings_title_camera">Không có Camera</string>
+    <string name="permission_settings_message_camera">Quyền Camera đã bị chặn. Vui lòng mở Cài đặt, chọn Quyền ứng dụng và cho phép sử dụng Camera.</string>
+
+    <string name="permission_settings_title_mic">Không có Microphone</string>
+    <string name="permission_settings_message_mic">Quyền thu âm đã bị chặn. Vui lòng mở Cài đặt, chọn Quyền ứng dụng và cho phép sử dụng Microphone.</string>
+
+    <string name="permission_settings_title_location">Vị trí bị vô hiệu hóa</string>
+    <string name="permission_settings_message_location">Quyền Vị trí đã bị chặn. Vui lòng mở Cài đặt và chọn "Luôn cho phép" hoặc "Chỉ khi dùng ứng dụng".</string>
+
+    <string name="permission_settings_title_storage">Bộ nhớ bị vô hiệu hóa</string>
+    <string name="permission_settings_message_storage">Quyền truy cập Ảnh/Video đã bị chặn. Vui lòng mở Cài đặt để cấp lại quyền này.</string>
+</resources>

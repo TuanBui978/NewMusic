@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_grant_permission">Предоставить разрешение</string>
+    <string name="action_open_settings">Открыть настройки</string>
+    <string name="action_cancel">Отмена</string>
+
+    <string name="permission_rationale_title_default">Требуется разрешение</string>
+    <string name="permission_rationale_message_default">Приложению требуется это разрешение для включения данной функции. Пожалуйста, разрешите!</string>
+
+    <string name="permission_rationale_title_multiple">Требуется несколько разрешений</string>
+    <string name="permission_rationale_message_multiple">Для правильной работы этой функции требуется несколько разрешений. Пожалуйста, предоставьте их на следующем шаге.</string>
+
+    <string name="permission_rationale_title_camera">Разрешение камеры</string>
+    <string name="permission_rationale_message_camera">Приложению требуется доступ к камере, чтобы вы могли делать фото или снимать видео.</string>
+
+    <string name="permission_rationale_title_mic">Разрешение микрофона</string>
+    <string name="permission_rationale_message_mic">Приложению требуется доступ к микрофону для записи вашего голоса.</string>
+
+    <string name="permission_rationale_title_location">Разрешение геолокации</string>
+    <string name="permission_rationale_message_location">Приложению требуется доступ к вашей геопозиции для предоставления наиболее точных услуг.</string>
+
+    <string name="permission_rationale_title_storage">Разрешение хранилища</string>
+    <string name="permission_rationale_message_storage">Приложению требуется доступ к вашим фото и медиафайлам, чтобы вы могли загружать или сохранять файлы.</string>
+
+    <string name="permission_settings_title_default">Разрешение отклонено</string>
+    <string name="permission_settings_message_default">Ранее вы отклонили это разрешение. Чтобы продолжить, откройте Настройки и предоставьте его вручную.</string>
+
+    <string name="permission_settings_title_multiple">Отсутствуют разрешения</string>
+    <string name="permission_settings_message_multiple">Несколько важных разрешений были навсегда отклонены. Откройте Настройки и разрешите доступ.</string>
+
+    <string name="permission_settings_title_camera">Нет доступа к камере</string>
+    <string name="permission_settings_message_camera">Доступ к камере заблокирован. Откройте Настройки, перейдите в Разрешения и разрешите доступ к камере.</string>
+
+    <string name="permission_settings_title_mic">Нет доступа к микрофону</string>
+    <string name="permission_settings_message_mic">Доступ к микрофону заблокирован. Откройте Настройки, перейдите в Разрешения и разрешите доступ к микрофону.</string>
+
+    <string name="permission_settings_title_location">Геолокация отключена</string>
+    <string name="permission_settings_message_location">Доступ к геопозиции заблокирован. Откройте Настройки и выберите «Разрешать всегда» или «Разрешать только во время использования приложения».</string>
+
+    <string name="permission_settings_title_storage">Хранилище отключено</string>
+    <string name="permission_settings_message_storage">Доступ к хранилищу заблокирован. Откройте Настройки, чтобы предоставить это разрешение.</string>
+</resources>
