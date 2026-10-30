@@ -24,7 +24,7 @@ fun SplashScreen(
     viewModel: SplashViewModel = hiltViewModel(),
 ) {
     LaunchedEffect(Unit) {
-        delay(100)
+        delay(3000)
         navController.navigate(HomeGraphRouter) {
             popUpTo(SplashGraphRouter) {
                 inclusive = true

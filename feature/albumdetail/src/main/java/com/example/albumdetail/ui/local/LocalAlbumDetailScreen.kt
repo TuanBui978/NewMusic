@@ -2,42 +2,40 @@ package com.example.albumdetail.ui.local
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.navigationBars
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Download
 import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.Shuffle
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
+import com.example.albumdetail.ui.component.layout.AlbumLayout
 import com.example.albumdetail.ui.component.media.SongListItem
 import com.example.albumdetail.ui.component.topbar.AlbumDetailTopAppBar
 import com.example.albumdetail.ui.component.topbar.AlbumDetailTopAppBarAction
 import com.example.albumdetail.ui.component.topbar.AlbumDetailTopAppBarState
 import com.example.albumdetail.ui.component.topbar.AlbumHeader
-import com.example.albumdetail.ui.component.topbar.AlbumLayout
 import com.example.core.ui.component.layout.BoxState
 import com.example.core.ui.component.layout.StateBox
 import com.example.core.ui.theme.AppTheme
 import com.example.core.utils.event.ObserveEvents
 import com.example.core.utils.permission.AppPermissions
 import com.example.core.utils.permission.rememberPermissionAction
+import com.example.domain.model.media.Song
 import kotlinx.coroutines.flow.Flow
 
 @Composable
@@ -50,7 +48,13 @@ fun LocalAlbumDetailScreen(
     ScreenLayout(
         modifier = modifier,
         state = state,
-        onAction = viewModel::handleAction
+        onAction = { action ->
+            if (action is LocalAlbumDetailUiAction.OnBack) {
+                navController.popBackStack()
+            } else {
+                viewModel.handleAction(action)
+            }
+        }
     )
     EventHandler(
         flow = viewModel.uiEvent,
@@ -66,27 +70,51 @@ private fun ScreenLayout(
     onAction: (LocalAlbumDetailUiAction) -> Unit,
 ) {
     val listState = rememberLazyListState()
-    val scrollBehavior = TopAppBarDefaults.exitUntilCollapsedScrollBehavior()
+
     AlbumLayout(
-        modifier = modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
+        modifier = modifier.fillMaxSize(),
         listState = listState,
-        topBar = {
+        topBar = { collapseFraction ->
             AlbumDetailTopAppBar(
                 state = AlbumDetailTopAppBarState(
-                    title = state.title,
+                    title = state.title.ifEmpty { "Local Music" },
                 ),
                 onAction = { action ->
                     if (action is AlbumDetailTopAppBarAction.Back) {
                         onAction(LocalAlbumDetailUiAction.OnBack)
                     }
                 },
-                scrollBehavior = scrollBehavior
+                collapseFraction = collapseFraction
             )
         },
-        playButton = {
+        header = {
+            AlbumHeader(
+                title = state.title.ifEmpty { "Local Music" },
+                subtitle = state.subtitle ?: "${state.songs.size} bài hát",
+            )
+        },
+        actions = {
+            Spacer(modifier = Modifier.width(AppTheme.dimensions.paddingMedium))
+            Icon(
+                imageVector = Icons.Default.Download,
+                contentDescription = "Download",
+                tint = Color.LightGray,
+                modifier = Modifier.size(AppTheme.dimensions.iconLarge)
+            )
+            Spacer(modifier = Modifier.weight(1f))
+            Icon(
+                imageVector = Icons.Default.Shuffle,
+                contentDescription = "Shuffle",
+                tint = Color.LightGray,
+                modifier = Modifier.size(AppTheme.dimensions.iconLarge)
+            )
+            Spacer(modifier = Modifier.width(AppTheme.dimensions.spaceExtraLarge))
+        },
+        floatingActionButton = {
             IconButton(
                 onClick = { /* Phát nhạc */ },
                 modifier = Modifier
+                    .padding(end = AppTheme.dimensions.paddingMedium)
                     .size(AppTheme.dimensions.iconExtraLarge)
                     .background(Color(0xFF1ED760), CircleShape)
             ) {
@@ -97,33 +125,35 @@ private fun ScreenLayout(
                     modifier = Modifier.size(AppTheme.dimensions.iconLarge)
                 )
             }
-        },
-        header = {
-            AlbumHeader(
-                title = state.title,
-                subtitle = state.subtitle,
-            )
         }
-    ) { headerHeight ->
-        BoxState(state.isLoading, errorMessage = null)?.let {
-            StateBox(
-                state = it,
-                onRetry = { onAction(LocalAlbumDetailUiAction.OnPermissionAllow) }
-            )
-        } ?: LazyColumn(
-            state = listState,
-            modifier = Modifier.fillMaxSize(),
-            contentPadding = WindowInsets.navigationBars.asPaddingValues()
-        ) {
-            item {
-                Spacer(modifier = Modifier.height(headerHeight))
-            }
-            items(state.songs) {
-                SongListItem(
-                    title = it.name,
-                    artist = it.artist,
-                    onItemClick = { onAction(LocalAlbumDetailUiAction.OnSongClick(it)) }
+    ) {
+        BoxState(state.isLoading, errorMessage = null)?.let { boxState ->
+            item(key = "state_box") {
+                StateBox(
+                    modifier = Modifier
+                        .fillParentMaxWidth()
+                        .padding(vertical = AppTheme.dimensions.spaceExtraLarge),
+                    state = boxState,
+                    onRetry = { onAction(LocalAlbumDetailUiAction.OnPermissionAllow) }
                 )
+            }
+        } ?: run {
+            if (state.songs.isNotEmpty()) {
+                items(state.songs, key = { it.id }) { song ->
+                    SongListItem(
+                        title = song.name,
+                        artist = song.artist,
+                        onItemClick = { onAction(LocalAlbumDetailUiAction.OnSongClick(song)) }
+                    )
+                }
+            } else {
+                items(50) { index ->
+                    SongListItem(
+                        title = "Bài hát demo #$index",
+                        artist = "Nghệ sĩ demo",
+                        onItemClick = { onAction(LocalAlbumDetailUiAction.OnSongClick(Song())) }
+                    )
+                }
             }
         }
     }
@@ -149,4 +179,5 @@ fun EventHandler(
         }
     }
 }
+
 

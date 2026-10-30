@@ -3,8 +3,13 @@ package com.example.library.ui.component
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.add
+import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.union
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
@@ -26,6 +31,7 @@ import com.example.domain.model.result.DataError
 import com.example.core.ui.component.media.MediaGridItem
 import com.example.core.ui.component.media.MediaListItem
 import com.example.core.ui.theme.AppTheme
+import com.example.core.ui.util.LocalBottomOverlayInsets
 import java.util.UUID
 
 enum class LayoutType {
@@ -90,10 +96,13 @@ fun AlbumLazyGridLayout(
     albums: List<Album>,
     onAction: (AlbumLazyLayoutAction) -> Unit
 ) {
+    val bottomInsets = WindowInsets.navigationBars.union(LocalBottomOverlayInsets.current)
     LazyVerticalGrid(
         columns = GridCells.Fixed(2),
         modifier = modifier,
-        contentPadding = PaddingValues(16.dp),
+        contentPadding = bottomInsets
+            .add(WindowInsets(left = 16.dp, top = 16.dp, right = 16.dp, bottom = 16.dp))
+            .asPaddingValues(),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
@@ -153,6 +162,9 @@ fun AlbumLazyListLayout(
 ) {
     LazyColumn(
         modifier = modifier,
+        contentPadding = WindowInsets.navigationBars
+            .union(LocalBottomOverlayInsets.current)
+            .asPaddingValues(),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         item {

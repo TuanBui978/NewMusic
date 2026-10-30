@@ -2,35 +2,33 @@ package com.example.albumdetail.ui.standard
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.navigationBars
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Download
 import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.Shuffle
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
+import com.example.albumdetail.ui.component.layout.AlbumLayout
 import com.example.albumdetail.ui.component.media.SongListItem
 import com.example.albumdetail.ui.component.topbar.AlbumDetailTopAppBar
 import com.example.albumdetail.ui.component.topbar.AlbumDetailTopAppBarAction
 import com.example.albumdetail.ui.component.topbar.AlbumDetailTopAppBarState
 import com.example.albumdetail.ui.component.topbar.AlbumHeader
-import com.example.albumdetail.ui.component.topbar.AlbumLayout
 import com.example.core.ui.theme.AppTheme
 
 @Composable
@@ -39,7 +37,6 @@ fun AlbumDetailScreen(
     navController: NavController,
     viewModel: AlbumDetailViewModel = hiltViewModel()
 ) {
-
     val state by viewModel.uiState.collectAsStateWithLifecycle()
 
     ScreenLayout(
@@ -61,12 +58,11 @@ private fun ScreenLayout(
     onAction: (AlbumDetailUiAction) -> Unit,
 ) {
     val listState = rememberLazyListState()
-    val scrollBehavior = TopAppBarDefaults.exitUntilCollapsedScrollBehavior()
 
     AlbumLayout(
-        modifier = modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
+        modifier = modifier.fillMaxSize(),
         listState = listState,
-        topBar = {
+        topBar = { collapseFraction ->
             AlbumDetailTopAppBar(
                 state = AlbumDetailTopAppBarState(
                     title = state.title,
@@ -76,13 +72,37 @@ private fun ScreenLayout(
                         onAction(AlbumDetailUiAction.OnBack)
                     }
                 },
-                scrollBehavior = scrollBehavior
+                collapseFraction = collapseFraction
             )
         },
-        playButton = {
+        header = {
+            AlbumHeader(
+                title = state.title,
+                subtitle = state.subtitle,
+            )
+        },
+        actions = {
+            Spacer(modifier = Modifier.width(AppTheme.dimensions.paddingMedium))
+            Icon(
+                imageVector = Icons.Default.Download,
+                contentDescription = "Download",
+                tint = Color.LightGray,
+                modifier = Modifier.size(AppTheme.dimensions.iconLarge)
+            )
+            Spacer(modifier = Modifier.weight(1f))
+            Icon(
+                imageVector = Icons.Default.Shuffle,
+                contentDescription = "Shuffle",
+                tint = Color.LightGray,
+                modifier = Modifier.size(AppTheme.dimensions.iconLarge)
+            )
+            Spacer(modifier = Modifier.width(AppTheme.dimensions.spaceExtraLarge))
+        },
+        floatingActionButton = {
             IconButton(
                 onClick = { /* Phát nhạc */ },
                 modifier = Modifier
+                    .padding(end = AppTheme.dimensions.paddingMedium)
                     .size(AppTheme.dimensions.iconExtraLarge)
                     .background(Color(0xFF1ED760), CircleShape)
             ) {
@@ -93,30 +113,29 @@ private fun ScreenLayout(
                     modifier = Modifier.size(AppTheme.dimensions.iconLarge)
                 )
             }
-        },
-        header = {
-            AlbumHeader(
-                title = state.title,
-                subtitle = state.subtitle,
+        }
+    ) {
+        items(50) { index ->
+            SongListItem(
+                title = "Bài hát số $index",
+                artist = "Nhiều ca sĩ",
+                isExplicit = index % 3 == 0,
+                onItemClick = { /* Chọn bài */ }
             )
         }
-    ) { headerHeight ->
-        LazyColumn(
-            state = listState,
-            modifier = Modifier.fillMaxSize(),
-            contentPadding = WindowInsets.navigationBars.asPaddingValues()
-        ) {
-            item {
-                Spacer(modifier = Modifier.height(headerHeight))
-            }
-            items(50) { index ->
-                SongListItem(
-                    title = "Bài hát số $index",
-                    artist = "Nhiều ca sĩ",
-                    isExplicit = index % 3 == 0,
-                    onItemClick = { /* Chọn bài */ }
-                )
-            }
-        }
+    }
+}
+
+@Preview
+@Composable
+private fun ScreenLayoutPreview() {
+    AppTheme {
+        ScreenLayout(
+            state = AlbumDetailUiState(
+                title = "Nhạc Trẻ Sôi Động",
+                subtitle = "Nhiều Ca Sĩ"
+            ),
+            onAction = {}
+        )
     }
 }

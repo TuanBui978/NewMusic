@@ -49,21 +49,29 @@ fun AlbumDetailTopAppBar(
     state: AlbumDetailTopAppBarState,
     onAction: (AlbumDetailTopAppBarAction) -> Unit,
     scrollBehavior: TopAppBarScrollBehavior? = null,
+    collapseFraction: (() -> Float)? = null,
     colors: AlbumDetailTopAppBarColors = TopAppBarDefaults.albumDetailTopAppBarColors(),
 ) {
     val topAppBarState = scrollBehavior?.state ?: rememberTopAppBarState()
+    val fractionProvider = collapseFraction ?: { topAppBarState.overlappedFraction }
     CenterAlignedTopAppBar(
         modifier = modifier
             .drawBehind {
+                val fraction = fractionProvider()
+                val bgAlpha = (fraction * 2f).coerceIn(0f, 1f)
+                drawRect(
+                    color = colors.backgroundColor,
+                    alpha = bgAlpha
+                )
                 drawRect(
                     brush = colors.gradientBlend,
-                    alpha = (topAppBarState.overlappedFraction * 2).coerceIn(0f, 1f)
+                    alpha = bgAlpha
                 )
             },
         title = {
             Text(
                 modifier = Modifier.graphicsLayer {
-                    alpha = (-1f + topAppBarState.overlappedFraction * 2).coerceIn(0f, 1f)
+                    alpha = (-1f + fractionProvider() * 2f).coerceIn(0f, 1f)
                 },
                 text = state.title
             )

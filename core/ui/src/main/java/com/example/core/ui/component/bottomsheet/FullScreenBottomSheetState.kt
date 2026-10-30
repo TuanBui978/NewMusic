@@ -7,16 +7,23 @@ import androidx.compose.foundation.gestures.animateTo
 import androidx.compose.foundation.gestures.snapTo
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 
 enum class SheetValue { Collapsed, Expanded }
 
 @OptIn(ExperimentalFoundationApi::class)
 @Stable
 class FullScreenBottomSheetState internal constructor(initialValue: SheetValue) {
+
     internal val delegateState = AnchoredDraggableState(
         initialValue = initialValue
     )
+
+    var stickyHeightPx by mutableIntStateOf(0)
+        internal set
 
     val expandedFraction: Float
         get() {

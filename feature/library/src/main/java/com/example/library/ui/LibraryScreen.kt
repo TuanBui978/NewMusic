@@ -4,6 +4,7 @@ import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -52,7 +53,6 @@ fun LibraryScreen(
                 LibraryUiAction.OnLayoutTypeChange -> viewModel.handleAction(LibraryUiAction.OnLayoutTypeChange)
                 LibraryUiAction.OnStorageClick -> navController.navigate(LocalAlbumDetailRoute) {
                     launchSingleTop = true
-                    restoreState = true
                 }
             }
         }
@@ -74,6 +74,7 @@ fun ScreenLayout(
 ) {
     Scaffold(
         modifier = modifier,
+        contentWindowInsets = WindowInsets(0, 0, 0, 0),
         topBar = {
             Column {
                 AvatarTopAppBar(

@@ -39,6 +39,7 @@ internal fun SubcomposeMeasureScope.measureFullScreenBottomSheet(
         SheetValue.Collapsed at collapsedOffset
         SheetValue.Expanded at expandedOffset
     }
+    state.stickyHeightPx = stickyHeightPx
     state.delegateState.updateAnchors(newAnchors)
     return layout(constraints.maxWidth, sheetMaxHeight) {
         contentPlaceable.fastForEach { placeable ->

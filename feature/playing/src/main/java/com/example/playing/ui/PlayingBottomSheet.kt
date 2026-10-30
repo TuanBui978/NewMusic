@@ -16,19 +16,22 @@ import androidx.media3.common.Player
 import com.example.core.media.manager.PlayBackState
 import com.example.core.media.manager.rememberPlayBackState
 import com.example.core.ui.component.bottomsheet.FullScreenBottomSheet
+import com.example.core.ui.component.bottomsheet.FullScreenBottomSheetState
 import com.example.core.ui.component.bottomsheet.rememberFullScreenBottomSheetState
 import com.example.core.ui.component.mediaplayer.MiniMediaPlayer
 import com.example.core.ui.theme.AppTheme
 
 @Composable
 fun PlayingBottomSheet(
-    modifier: Modifier,
+    modifier: Modifier = Modifier,
+    sheetState: FullScreenBottomSheetState = rememberFullScreenBottomSheetState(),
     viewModel: PlayingViewModel = hiltViewModel()
 ) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
     val playBackState = rememberPlayBackState(viewModel.playerStateManager)
     ScreenLayout(
         modifier = modifier,
+        sheetState = sheetState,
         state = state,
         playBackState = playBackState,
         onAction = {
@@ -44,13 +47,14 @@ fun PlayingBottomSheet(
 @Composable
 fun ScreenLayout(
     modifier: Modifier = Modifier,
+    sheetState: FullScreenBottomSheetState = rememberFullScreenBottomSheetState(),
     state: PlayingUiState,
     playBackState: PlayBackState,
     onAction: (PlayingUiAction) -> Unit = {}
 ) {
     FullScreenBottomSheet(
         modifier = modifier,
-        state = rememberFullScreenBottomSheetState()
+        state = sheetState
     ) {
         stickyContent {
             MiniMediaPlayer(
